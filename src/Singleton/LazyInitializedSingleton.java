@@ -1,4 +1,4 @@
-package DesignPatterns.Factory.Singleton;
+package Singleton;
 /*Lazy initialization method to implement the singleton pattern creates the instance in the
 global access method. Here is the sample code for creating the singleton class with this approach:*/
 public class LazyInitializedSingleton {

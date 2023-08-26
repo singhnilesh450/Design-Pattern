@@ -1,4 +1,4 @@
-package DesignPatterns.Factory.Singleton;
+package Singleton;
 /* To implement a singleton pattern, we have different approaches, but all of them have the following common concepts.
 1. Private constructor to restrict instantiation of the class from other classes.
 2. Private static variable of the same class that is the only instance of the class.
