@@ -1,0 +1,17 @@
+The abstract factory pattern is similar to the factory pattern and is a factory of factories.
+If you are familiar with the factory design pattern in Java, you will notice that we have a single
+factory class that returns the different subclasses based on the input provided and the factory class
+uses if-else or switch statements to achieve this. In the abstract factory pattern, we get rid of if-else
+block and have a factory class for each subclass and then an abstract factory class that will return the
+subclass based on the input factory class.
+
+We use the Factory pattern to create multiple objects from the same family without having to deal
+with the creation process. The Abstract pattern is similar. The difference is that it provides a
+constructor to create families of related objects. It is abstract, which means that it does not specify
+concrete classes or constructors.
+
+when to use: -
+Applications requiring the reuse or sharing of objects.
+Applications with complex logic because they have multiple families of related objects that need to be used together.
+When we require object caching.
+When the object creation process is to be shielded from the client.
