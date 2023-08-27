@@ -1,7 +1,7 @@
 package AbstractFactory.ComputerService;
 
-import AbstractFactory.ComputerService.facory.PCFactory;
-import AbstractFactory.ComputerService.facory.ServerFactory;
+import AbstractFactory.ComputerService.factory.PCFactory;
+import AbstractFactory.ComputerService.factory.ServerFactory;
 
 public class TestAbstractFactory {
 
