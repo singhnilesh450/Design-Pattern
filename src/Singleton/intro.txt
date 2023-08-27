@@ -1,0 +1,5 @@
+When to use: -
+The Singleton pattern is mostly used in cases where we want a single object to coordinate actions across a system.
+Services can be singleton since they store the state, configuration, and provide access to resources. Therefore, it makes sense to have a single instance of a service in an application.
+Databases such as MongoDB utilize the Singleton pattern when it comes to database connections.
+Configurations are used if there is an object with a specific configuration, and we don’t need a new instance every time that configuration object is needed
