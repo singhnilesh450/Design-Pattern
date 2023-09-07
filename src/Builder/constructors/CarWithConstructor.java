@@ -52,3 +52,10 @@ public class CarWithConstructor {
         this.centralLock = centralLock;
     }
 }
+/*   Too Many arguments to pass from client program to the Factory class that can be
+error prone because most of the time, the type of arguments are same and from client
+side its hard to maintain the order of the argument
+
+Going with this will resulting in many combinations of constructor ehich is neither readble or usable
+Optional properties increased then constructors will also increased exponentially
+ */
