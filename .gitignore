@@ -28,6 +28,6 @@ bin/
 ### Mac OS ###
 .DS_Store
 .idea/
-DesignPattern.impl/
-Design Pattern.impl/
+DesignPattern.iml/
+Design Pattern.iml/
 java/
